@@ -1,7 +1,7 @@
 ## Rotina de transações
 - Link da aplicação: https://transactions-routine.herokuapp.com/
 
-#### Para fazer deploy de uma nova versão, basta clicar
+#### Para fazer para criar a aplicação em sua conta do Heroku, basta clicar
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 #### Para informações da API
