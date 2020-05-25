@@ -15,6 +15,11 @@ https://transactions-routine.herokuapp.com/swagger-ui.html
 - JUnit 5;
 - Lombok;
 
+#### Caso queira montar a imagem docker da aplicação
+```sh
+docker build -t transactions-routine .
+```
+
 #### Rodar imagem docker
 ```sh
 docker run -it -p 8080:8080 --name transactions-routine-container transactions-routine
