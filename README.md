@@ -2,9 +2,7 @@
 - Link da aplicação: https://transactions-routine.herokuapp.com/
 
 #### Para fazer deploy de uma nova versão, basta clicar
-[![Deploy](https://heroku.com/deploy?template=https://github.com/brunojoenk/transactions-routine/tree/master)
-
-https://heroku.com/deploy?template=https://github.com/brunojoenk/transactions-routine/tree/master
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 #### Para informações da API
 https://transactions-routine.herokuapp.com/swagger-ui.html
