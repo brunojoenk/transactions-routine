@@ -1,0 +1,11 @@
+com/transactionsroutine/services/OperationTypeRetrievalTest.class
+com/transactionsroutine/services/AccountRetrievalTest.class
+com/transactionsroutine/mappers/TransactionMapperTest.class
+com/transactionsroutine/services/AccountCreationTest.class
+com/transactionsroutine/services/AmountConverterTest.class
+com/transactionsroutine/services/AmountValidationTest.class
+com/transactionsroutine/controllers/TransactionControllerTest.class
+com/transactionsroutine/TransactionsRoutineApplicationTests.class
+com/transactionsroutine/mappers/AccountMapperTest.class
+com/transactionsroutine/controllers/AccountControllerTest.class
+com/transactionsroutine/services/TransactionCreationTest.class
