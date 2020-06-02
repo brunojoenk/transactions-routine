@@ -34,7 +34,7 @@ public class TransactionController {
 	@ApiResponses(value = {
 			@ApiResponse(code = 200, message = "Transaction created"),
 			@ApiResponse(code = 400, message = "Parameter invalid"),
-			@ApiResponse(code = 404, message = "Account not founded for create transaction")
+			@ApiResponse(code = 404, message = "Account not found for create transaction")
 	})
 	@PostMapping
 	public TransactionResponseDTO create(@RequestBody TransactionRequestDTO transactionRequestDTO) {

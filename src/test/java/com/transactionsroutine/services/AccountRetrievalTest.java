@@ -42,7 +42,7 @@ public class AccountRetrievalTest {
 	}
 
 	@Test
-	@DisplayName("when account is not founded")
+	@DisplayName("when account is not found")
 	public void whenAccountDoesNotExist() {
 		assertThrows( AccountNotFoundException.class,
 				() -> accountRetrieval.get( ACCOUNT_ID ) );

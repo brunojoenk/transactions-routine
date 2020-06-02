@@ -42,7 +42,7 @@ public class AccountControllerTest {
 	}
 
 	@Test
-	public void whenAccountIsNotFounded() {
+	public void whenAccountIsNotFound() {
 		ResponseEntity responseRetrieval = restTemplate.getForEntity( "/accounts/20", String.class );
 
 		assertThat( responseRetrieval.getStatusCode(), equalTo( HttpStatus.NOT_FOUND ) );
