@@ -17,6 +17,7 @@ https://transactions-routine.herokuapp.com/swagger-ui.html
 
 #### Caso queira montar a imagem docker da aplicação
 ```sh
+mvn clean install
 docker build -t transactions-routine .
 ```
 
