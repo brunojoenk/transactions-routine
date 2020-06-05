@@ -36,11 +36,11 @@ public class SwaggerConfig {
 		return asList(
 				new ResponseMessageBuilder()
 						.code( 200 )
-						.message( "Item founded" )
+						.message( "Item found" )
 						.build(),
 				new ResponseMessageBuilder()
 						.code( 404 )
-						.message( "Item not founded" )
+						.message( "Item not found" )
 						.build() );
 	}
 

@@ -46,8 +46,8 @@ public class AccountController {
 	}
 
 	@ApiResponses(value = {
-			@ApiResponse(code = 200, message = "Account founded"),
-			@ApiResponse(code = 404, message = "Account not founded")
+			@ApiResponse(code = 200, message = "Account found"),
+			@ApiResponse(code = 404, message = "Account not found")
 	})
 	@GetMapping("/{accountId}")
 	public AccountResponseDTO get(@PathVariable Long accountId) {
